@@ -1,6 +1,6 @@
 function helloWorld() {
-    // console.log("Hello World!");
-    console.log("Git is awesome!")
+    let userName = prompt("Enter your name:"); 
+    console.log("Hello " + userName + "!")
 }
 
 helloWorld();
